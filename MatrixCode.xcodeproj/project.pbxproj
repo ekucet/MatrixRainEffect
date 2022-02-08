@@ -11,6 +11,8 @@
 		88F2A2C627B2545100C9029B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A2C527B2545100C9029B /* ContentView.swift */; };
 		88F2A2C827B2545200C9029B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F2A2C727B2545200C9029B /* Assets.xcassets */; };
 		88F2A2CB27B2545200C9029B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F2A2CA27B2545200C9029B /* Preview Assets.xcassets */; };
+		88F2A2D327B2546600C9029B /* MatrixCodeNFI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88F2A2D227B2546600C9029B /* MatrixCodeNFI.ttf */; };
+		88F2A2DA27B2555F00C9029B /* MatrixRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A2D927B2555F00C9029B /* MatrixRainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		88F2A2C527B2545100C9029B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88F2A2C727B2545200C9029B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F2A2CA27B2545200C9029B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88F2A2D227B2546600C9029B /* MatrixCodeNFI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MatrixCodeNFI.ttf; sourceTree = "<group>"; };
+		88F2A2D427B254BA00C9029B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88F2A2D927B2555F00C9029B /* MatrixRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +56,12 @@
 		88F2A2C227B2545100C9029B /* MatrixCode */ = {
 			isa = PBXGroup;
 			children = (
-				88F2A2C327B2545100C9029B /* MatrixCodeApp.swift */,
+				88F2A2D827B2554900C9029B /* View */,
+				88F2A2D427B254BA00C9029B /* Info.plist */,
 				88F2A2C527B2545100C9029B /* ContentView.swift */,
+				88F2A2C327B2545100C9029B /* MatrixCodeApp.swift */,
 				88F2A2C727B2545200C9029B /* Assets.xcassets */,
+				88F2A2D127B2545900C9029B /* Fonts */,
 				88F2A2C927B2545200C9029B /* Preview Content */,
 			);
 			path = MatrixCode;
@@ -65,6 +73,22 @@
 				88F2A2CA27B2545200C9029B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88F2A2D127B2545900C9029B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88F2A2D227B2546600C9029B /* MatrixCodeNFI.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		88F2A2D827B2554900C9029B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88F2A2D927B2555F00C9029B /* MatrixRainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +151,7 @@
 			files = (
 				88F2A2CB27B2545200C9029B /* Preview Assets.xcassets in Resources */,
 				88F2A2C827B2545200C9029B /* Assets.xcassets in Resources */,
+				88F2A2D327B2546600C9029B /* MatrixCodeNFI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +164,7 @@
 			files = (
 				88F2A2C627B2545100C9029B /* ContentView.swift in Sources */,
 				88F2A2C427B2545100C9029B /* MatrixCodeApp.swift in Sources */,
+				88F2A2DA27B2555F00C9029B /* MatrixRainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +297,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MatrixCode/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MatrixCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +326,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MatrixCode/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MatrixCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

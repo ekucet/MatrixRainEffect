@@ -11,7 +11,7 @@ import SwiftUI
 struct MatrixCodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MatrixRainView()
         }
     }
 }
